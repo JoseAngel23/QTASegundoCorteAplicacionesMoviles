@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">QTASegundo Corte</string>
+    <string name="simuladores">Simuladores</string>
+    <string name="credito_hipotecario">Crédito Hipotecario en \nColombia</string>
+    <string name="valor_propiedad">* Valor de la propiedad</string>
+    <string name="hint_uno">100.000.000</string>
+    <string name="leyend_text_one">El valor de la propiedad no puede ser inferior a\n$70.000.000</string>
+    <string name="cuanto_necesitas">* ¿Cuánto necesitas?</string>
+    <string name="hint_dos">70.000.000</string>
+    <string name="leyend_text_dos">El préstamo mínimo es de $50.000.000 y no puede \nexceder el 70% del valor de la propiedad para créditos hipotecarios, mientras que para leasing \hábitacional no puede exceder el 80% del valor de la \npropiedad.</string>
+    <string name="plazo_text">* ¿A qué plazo necesitas el crédito (años)?</string>
+    <string name="anios">5</string>
+    <string name="leyend_text_three">Van desde los 5 hasta los 20 años. El plazo más \ncomún es de 20 años.</string>
+    <string name="interes_text">* ¿A qué tasa de interés efectiva anual (TAE)?</string>
+    <string name="tasa_interes_text">14.03</string>
+    <string name="leyend_five">Esta tasa depende de tu historial crediticio y del \nbanco en el que pidas el crédito.\n</string>
+    <string name="simular_text">Simular</string>
+
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/simuladores_text"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/roboto"
+        android:paddingTop="@dimen/padding"
+        android:paddingEnd="@dimen/padding"
+        android:text="@string/simuladores"
+        android:textAlignment="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding">
+
+        <LinearLayout
+            android:id="@+id/credito_hipotecario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/credito_text"
+                style="@style/CreditoStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding"
+                android:paddingTop="@dimen/padding_product"
+                android:paddingEnd="@dimen/padding"
+                android:paddingBottom="@dimen/padding"
+                android:text="@string/credito_hipotecario" />
+
+            <TextView
+                android:id="@+id/valor_propiedad_text"
+                style="@style/valorStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingTop="@dimen/padding_product"
+                android:paddingBottom="@dimen/padding"
+                android:text="@string/valor_propiedad" />
+
+            <EditText
+                android:id="@+id/number_valor_text"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:fontFamily="@font/roboto"
+                android:hint="@string/hint_uno"
+                android:includeFontPadding="true"
+                android:inputType="numberDecimal"
+                android:paddingStart="@dimen/padding"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:id="@+id/leyend_text_one"
+                style="@style/leyendStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leyend_text_one" />
+
+            <TextView
+                android:id="@+id/cuanto_necesitas_text"
+                style="@style/valorStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_product"
+                android:paddingBottom="@dimen/padding"
+                android:text="@string/cuanto_necesitas" />
+
+            <EditText
+                android:id="@+id/number_valor_text_two"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:fontFamily="@font/roboto"
+                android:hint="@string/hint_dos"
+                android:includeFontPadding="true"
+                android:inputType="numberDecimal"
+                android:paddingStart="@dimen/padding"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:id="@+id/leyend_text_dos"
+                style="@style/leyendStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leyend_text_dos" />
+
+            <TextView
+                android:id="@+id/plazo_text"
+                style="@style/valorStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_product"
+                android:text="@string/plazo_text" />
+
+            <EditText
+                android:id="@+id/valor_three"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:fontFamily="@font/roboto"
+                android:hint="@string/anios"
+                android:inputType="numberDecimal"
+                android:paddingStart="@dimen/padding"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:id="@+id/leyend_text_three"
+                style="@style/leyendStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leyend_text_three" />
+
+            <TextView
+                android:id="@+id/tasas_interes_text"
+                style="@style/valorStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_product"
+                android:text="@string/interes_text" />
+
+            <EditText
+                android:id="@+id/number_valor_text_four"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:fontFamily="@font/roboto"
+                android:hint="@string/tasa_interes_text"
+                android:inputType="numberDecimal"
+                android:paddingStart="@dimen/padding"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                android:id="@+id/leyend_four"
+                style="@style/leyendStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_product"
+                android:text="@string/leyend_five" />
+
+            <Button
+                android:id="@+id/button_simular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/rojo"
+                android:fontFamily="@font/roboto"
+                android:text="@string/simular_text"
+                android:textColorLink="#F2BD4040"
+                app:rippleColor="@color/rojo" />
+
+            <TextView
+                android:id="@+id/resultado_text"
+                style="@style/leyendStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_product"
+                android:text="TextView"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
